@@ -1,4 +1,3 @@
-# Imports
 import pygame
 pygame.init()
 
@@ -69,7 +68,6 @@ def redrawGameWindow():
     pygame.display.update()
 
 
-#mainloop
 man = player(200, 410, 64,64)
 bullets = []
 run = True
@@ -129,5 +127,6 @@ while run:
             man.jumpCount = 10
             
     redrawGameWindow()
+
 
 pygame.quit()
